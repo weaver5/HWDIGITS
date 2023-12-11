@@ -19,5 +19,8 @@ The `imgprocessed` function oversees the preprocessing of images, predicts the d
 I was able to use the np.argmax function to accurately show the predicted digit's accuracy. Through the application of np.argmax on the prediction array, the script chooses the index associated with the highest confidence or probability. This index directly corresponds to the digit that the model predicts with the greatest certainty. 
 The confidence level is determined by getting the specific confidence value linked to the predicted digit from the prediction array. In my code, after making predictions using the model.predict method, the outcomes are stored in the variable predic. The confidence level for the predicted digit is then used by indexing into the array using predic[0][pred_val].
  The display_sensehat function visually shows the predicted digit on the sense hat. A continuous video capture loop allows me to start predictions by pressing 'c' and stop the program with 'q'. 
-The output from the video each time when I pressed the button looked like the following image. I utilized a monitor with digitally handwritten digits, and my demo can be found at this link: https://www.youtube.com/watch?v=7rFuzUy9Gkg&ab_channel=MichaelaCrego
+The output from the video each time when I pressed the button looked like the following image. 
+</pre>
+<pre>
+I utilized a monitor with digitally handwritten digits, and my demo can be found at this link: https://www.youtube.com/watch?v=7rFuzUy9Gkg&ab_channel=MichaelaCrego
 </pre>

@@ -1,14 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# # <center><font color=maroon>CPE4903 Project: MNIST Handwritten Digit Classification</font> </center>
-# 
-# ### In this mini-project, you will develop a CNN model for the handwritten digit classifier. 
-# * Use the companion notebook file, `CPE_4903_MNIST_NN`, as a reference and follow the steps to train and test the model. 
-# * <font color=red>Performance requirement: the accuracy on the test data needs to be better than 99% </font>
-# * You will save the parameters of the model at the end, which will be deployed on Raspberry Pi.
-
-# ![mnist_2layers_arch.png](attachment:mnist_2layers_arch.png)
 
 # ### Load tool modules
 
